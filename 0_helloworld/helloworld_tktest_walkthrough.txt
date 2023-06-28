@@ -1,0 +1,48 @@
+Objective is to understand as many basic concepts in one shot:
+
+
+
+After the imports, the next line creates an instance of the Tk class, which initializes Tk and creates its associated Tcl interpreter. 
+It also creates a toplevel window, known as the root window, which serves as the main window of the application.
+
+Next line creates a frame widget, which in this case will contain a label and a button we’ll create next. The frame is fit inside the root window.
+
+The next line creates a label widget holding a static text string. 
+The grid() method is used to specify the relative layout (position) of the label within its containing frame widget, similar to how tables in HTML work.
+
+A button widget is then created, and placed to the right of the label. When pressed, it will call the destroy() method of the root window.
+
+Finally, the mainloop() method puts everything on the display, and responds to user input until the program terminates.
+
+
+
+
+
+
+Important Tk Concepts covered in this:
+This simple program illustrates the following key Tk concepts:
+
+widgets:
+A Tkinter user interface is made up of individual widgets. 
+Each widget is represented as a Python object, instantiated from classes like ttk.Frame, ttk.Label, and ttk.Button.
+
+widget hierarchy:
+Widgets are arranged in a hierarchy. 
+The label and button were contained within a frame, which in turn was contained within the root window. 
+When creating each child widget, its parent widget is passed as the first argument to the widget constructor.
+
+configuration options:
+Widgets have configuration options, which modify their appearance and behavior, such as the text to display in a label or button. 
+Different classes of widgets will have different sets of options.
+
+geometry management:
+Widgets aren’t automatically added to the user interface when they are created. A geometry manager like grid controls where in the user interface they are placed.
+
+event loop:
+Tkinter reacts to user input, changes from your program, and even refreshes the display only when actively running an event loop. 
+If your program isn’t running the event loop, your user interface won’t update.
+
+
+
+
+Stuck? See "official pydoc on tkinter" webpage tagged in reslog.txt (1->)

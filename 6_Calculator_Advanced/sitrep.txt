@@ -1,0 +1,5 @@
+alpha-> button layout alpha
+bravo-> row 1 done
+charlie-> essential 6 trig () done
+delta-> proposed () done
+echo-> floatcapabilityfixedandadded

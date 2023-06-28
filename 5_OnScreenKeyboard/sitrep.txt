@@ -1,0 +1,7 @@
+alpha->spawn test
+bravo-> row 1 done
+charlie-> row 2 done
+delta-> row 3 (spec char pending)
+echo-> row 3 and 4 done
+foxtrot-> nump linking and spec row done
+golf-> added ininity symbol (spec row)
